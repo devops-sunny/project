@@ -27,6 +27,16 @@ export default function Sidebar() {
       path: "/",
       active: match("/"),
     },
+    {
+      roles: "PAGE1",
+      path: "/page1",
+      active: match("/page1"),
+    },
+    {
+      roles: "PAGE2",
+      path: "/page2",
+      active: match("/page2"),
+    },
   ];
 
   return (
